@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    
+    <!-- Start NavBar section  -->
+    <header class="section-navbar">
+        <div class="container">
+            <div class="navbar-brand">
+                <a href="index.html">
+                    <img src="large (1).png"
+                    alt="Good Karma logo"
+                    width="80%"
+                    height="auto" class="logo"/>  <!-- logo should be changed-->
+                </a>
+            </div>
+
+        
+
+        <nav class="NavBar">
+            <ul>
+                <li class="nav-item"><a href="/">home</a></li>
+                <li class="nav-item"> <a href="/">about</a></li>
+                <li class="nav-item"><a href="/">real hero</a></li>
+                <li class="nav-item"><a href="/">Make Groups</a></li>
+                <li class="nav-item"><a href="/">Weakly Real Hero</a></li>
+                <li class="nav-item"><a href="/">Login</a></li>
+            </ul>
+        </nav>
+    </div>
+     </header>
+
+     <!-- End of NavBar -->
+
+
+     <!-- Video background -->
+      <video autoplay muted loop class="video-background">
+        <source src="bg video.mp4" type="video/mp4">
+      </video>
+
+     <!-- Start Login Page -->
+      <div class="Login-section">
+        <div class="container">
+            <h1 class="main-heading">Login</h1>
+            <p class="sub-heading">Login to start your "Good Karma". </p>
+
+            <form action="http://localhost:3000/login" method="POST">
+            <div class="form-section">
+                <div class="user-section">
+                <label for="username">UserName</label>
+                <input type="text" id="username" placeholder="Enter username" 
+                required
+                autocomplete="off"
+                size="30" />
+            </div>
+                <br>
+                <div class="password-section">
+                <label for="password">Password</label>
+                <input type="password" id="password"
+                placeholder="Enter password"
+                required
+                autocomplete="off"
+                size="30"/>
+            </div>
+                <br>
+
+                <div class="Forget-section">
+                <a href="/" class="common-anchor">Forget Password</a>
+            </div>
+
+            <div class="Register-class">
+                <a href="register.html" class="common-anchor">Sign Up</a>
+            </div>
+                <br>
+                <!-- <button  type="submit" class="log-btn"><a href="" class="log-anchor-btn">Login</a></button> -->
+                 <button type="submit" id="log-btn">Login</button>
+                <button type="reset" class="reset-btn">Cancel</button>
+
+            </div>
+        </form>
+        </div>
+      </div>
+  
+      
+      <script src="script2.js"></script>
+</body>
+</html>

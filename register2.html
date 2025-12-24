@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <!-- <link rel="stylesheet" href="style.css"/> -->
+</head>
+<body>
+    <!-- NavBar -->
+    <header class="section-navbar">
+        <div class="container">
+            <div class="navbar-brand">
+            <a href="index.html">
+                <img src="large (1).png"
+                alt="Good Karma logo" 
+                width="80%"
+                height="auto"
+                 class="logo">
+            </a>
+            
+        </div>
+        <nav class="NavBar">
+            <ul>
+                <li class="nav-item"><a href="/">home</a></li>
+                <li class="nav-item"><a href="/">about</a></li>
+                <li class="nav-item"><a href="/">real hero</a></li>
+                <li class="nav-item"><a href="/">Make Groups</a></li>
+                <li class="nav-item"><a href="/">Weakly Real Hero</a></li>
+                <li class="nav-item"><a href="/">login</a></li>
+            </ul>
+
+        </nav>
+
+        </div>
+    </header>
+
+    <!-- Start register section -->
+     <div class="register-section">
+        <div class="container">
+                <h1 class="main-heading">Register</h1>
+                <p class="sub-heading">Register to start your "Good Karma"</p>
+
+                <div class="container grid grid-two--cols">
+                    <div class="UserDetail">
+                <form class="Register-form">
+                <div class="register-form-section">
+                    <!-- <div class="grid grid-two--cols mb-3"> -->
+                        <div class="column">
+                    <div class="firstName-section">
+                        <label for="first-name">First Name</label>
+                        <input type="text" id="first-name" placeholder="Enter First Name" 
+                        required autocomplete="off" size="30"/>
+                    </div>
+                <!-- </div> -->
+                <div class="column">
+                    <div class="lastName-section">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" id="lastName" placeholder="Enter Last Name"
+                        required autocomplete="off" size="30"/>
+                    </div>
+                    </div>
+
+                </div>
+
+                <!-- <div class="mb-3"> -->
+                    <div class="column">
+                    <div class="DOB">
+                        <label for="Date of Birth">Date of Birth</label>
+                        <input type="date" id="Date of Birth" placeholder="Enter your Date of Birth"
+                        required autocomplete="off" size="30"/>
+                    </div>
+                    </div>
+                    <div class="column">
+                    <div class="Gender">
+                        <label for="Gender">Gender</label>
+                        <select name="Gender" id="Gender">
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="Transgender">Transgender</option>
+                        </select>
+                    </div>
+                    </div>
+                <!-- </div> -->
+
+                <div class="mb-3">
+                    <div class="column">
+                    <div class="Mobile-No">
+                        <!-- country code -->
+                        <lable for="Mobile No">Mobile Number</lable>
+                        <!-- <label for="country-code">Country Code:</label> -->
+                        <select id="country-code" name="country-code" required autocomplete="off">
+                            <option value="+91">+91 (India)</option>
+                            <option value="+1">+1 (USA)</option>
+                            <option value="+44">+44 (UK)</option>
+                            <option value="+61">+61 (Australia)</option>
+                            <!-- Add more country codes as needed -->
+                        </select>
+
+                        <input type="tel" id="Mobile No" placeholder="Enter Mobile No"
+                        required 
+                        autocomplete="off" size="30"/>
+                    </div>
+                    </div>
+
+                    <div class="column">
+                    <div class="Email">
+                        <label for="Email">Email Id</label>
+                        <input type="email" id="Email" required autocomplete="off" placeholder="example@gmail.com" size="30"/>
+                    </div>
+                    </div>
+                    </div>
+
+
+                    <div class="mb-3">
+                        <div class="column">
+                    <div class="username">
+                        <label for="username">Create UserName</label>
+                        <input type="username" id="username" placeholder="Must contain(a-z 0-9 @,$,%,_,...) etc" autocomplete="off" size="30"/>
+                    </div>
+                    </div>
+
+                    <div class="column">
+                    <div class="create-password">
+                        <lable for="create password">Create Password</lable>
+                        <input type="password" id="create password" placeholder="Create Strong password" required autocomplete="off" size="30"/>
+                    </div>
+                    </div>
+                    </div>
+                    
+                    <div class="mb-3">
+                    <div class="column">
+                    <div class="confirm-password">
+                        <label for="confirm-password">Confirm Password</label>
+                        <input type="password" id="confirm-password" placeholder="Confirm-Password" required autocomplete="off" size="30"/>
+                    </div>
+                    </div>
+                    </div>
+
+                    
+                        <div class="column">
+                    <div class="Profession">
+                        <lable for="profession">Profession</lable>
+                        <input type="text" id="profession" placeholder="Ex: Student,Teacher,Police,Army etc" size="30"/>
+                    </div>
+                    </div>
+                    </div>
+
+                    <div class="mb-3">
+                    <div class="column">
+                    <div class="Bio">
+                        <label for="Bio">Bio</label>
+                        <textarea
+                        name="Bio"
+                        rows="6"
+                        cols="50"
+                        placeholder="Write which want to reflect in your profile"></textarea>
+                        <!-- <input type="textarea" id="Bio" placeholder="Write which want to reflect in your profile" size="30"/> -->
+                    </div>
+                    </div>
+                    </div>
+
+                    <div class="column">
+                    <div class="submit-btn">
+                        <button type="submit">Submit</button>
+                    </div>
+                </div>
+            </div>
+
+                </div>
+            </form>
+         </div>
+        </div>
+     </div>
+    
+    
+</body>
+</html>
